@@ -112,7 +112,7 @@ if 'Fine_Amount' in df.columns:
             
         # Filter
         mask_fines = (df['Date'].dt.year >= sel_years_fines[0]) & (df['Date'].dt.year <= sel_years_fines[1])
-        df_fines = df[mask_fines]
+        df_fines = df[mask_fines].copy()
 
         # Ensure numeric
         df_fines['Fine_Amount_Num'] = pd.to_numeric(df_fines['Fine_Amount'], errors='coerce').fillna(0)
@@ -141,7 +141,7 @@ if 'Driver_Age' in df.columns:
 
         # Filter
         mask_age = (df['Date'].dt.year >= sel_years_age[0]) & (df['Date'].dt.year <= sel_years_age[1])
-        df_age = df[mask_age]
+        df_age = df[mask_age].copy()
 
         # Ensure numeric
         df_age['Driver_Age'] = pd.to_numeric(df_age['Driver_Age'], errors='coerce')
