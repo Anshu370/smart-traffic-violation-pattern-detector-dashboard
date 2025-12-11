@@ -16,7 +16,7 @@ This backlog tracks the internship progress from Training to Product Delivery.
 | Planned Sprint | Actual Sprint | US ID | User Story Description | MOSCOW | Dependency | Assignee | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Sprint 1 | Sprint 1 | US-00 | As a team, we need to **collaborate on a Shared Learning Repo** to practice Python/Pandas. | Must Have | None | All Team | Done |
-| Sprint 2 | Sprint 2 | US-01 | As a lead, I want to **initialize the Main Project Repo** with a 7-branch strategy. | Must Have | None | Sami (Lead) | Done |
+| Sprint 2 | Sprint 2 | US-01 | As a lead, I want to **initialize the Main Project Repo** with a 7-branch strategy. | Must Have | None | Saidul (Lead) | Done |
 | Sprint 2 | Sprint 2 | US-02 | As a user, I want a **Data Upload Page** to load traffic CSVs. | Must Have | US-01 | Divija | Done |
 | Sprint 2 | Sprint 2 | US-03 | As a system, I need **Feature-Branch workflows** (6-7 branches) to manage 15 devs. | Must Have | None | Anshu | Done |
 | Sprint 3 | Sprint 3 | US-08 | As a user, I want **Home & About Pages** for project info. | Must Have | US-01 | Ishwari | Done |
@@ -36,7 +36,7 @@ This backlog tracks the internship progress from Training to Product Delivery.
 
 | US ID | Task ID | Task Description | Team Member | Status | Est. Effort (Hrs) | Day 1-7 | Day 8-14 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| US-01 | T-101 | Initialize Main Repo & Define 7 Core Branches | Sami | Done | 10 | 10 | 0 |
+| US-01 | T-101 | Initialize Main Repo & Define 7 Core Branches | Saidul | Done | 10 | 10 | 0 |
 | US-03 | T-102 | Setup Branch Protections (Backend, UI, Data, etc.) | Anshu | Done | 15 | 8 | 7 |
 | US-02 | T-103 | Build `09_Upload_Dataset.py` Page | Divija | Done | 8 | 5 | 3 |
 | US-04 | T-104 | Develop `01_Numerical_Analysis.py` Page | Mrunalini | Done | 8 | 4 | 4 |
@@ -50,12 +50,17 @@ This backlog tracks the internship progress from Training to Product Delivery.
 
 Daily syncing, focusing on "CollisionX India" platform blockers.
 
-| Sprint | Day | Date | Impediments / Blockers | Action Taken |
-| :--- | :--- | :--- | :--- | :--- |
-| **Sp 2** | Day 3 | Nov 03 | **Blocker:** 15 members pushing to main caused chaos in the Learning Repo. | **Action:** Saidul/Anshu moved to **Feature-Branch** strategy (only ~7 active branches) for the Main Project. |
-| **Sp 3** | Day 5 | Nov 15 | **Issue:** Ishwari & Harika flagged HTML rendering issues in Streamlit tables. | **Action:** **Mrunalini & Ishwari** wrote custom CSS variables to fix the layout colors and spacing. |
-| **Sp 4** | Day 2 | Dec 02 | **Blocker:** Map plotting failing. Standard maps don't match our data regions. | **Action:** Saidul spent 2 days finding the correct Open Source **GeoJSON** files from the internet. |
-| **Sp 4** | Day 4 | Dec 04 | **Task:** Need a unique identity. | **Action:** Mrunalini designed the **"CollisionX India"** logo and theme assets. |
+| Sprint | Date | Impediments / Blockers | Action Taken |
+| :--- | :--- | :--- | :--- |
+| **Sp 1** | Oct 18 | **Planning:** Initial project planning. | **Decision:** Concluded to build a **Python-heavy** project to maximize learning (avoiding simple no-code tools). |
+| **Sp 1** | Oct 22 | **Info:** Reviewing the overall Project Structure. | **Action:** Walkthrough of the folder structure (`core/`, `pages/`) so everyone understands the flow. |
+| **Sp 2** | Nov 01 | **Planning:** Graphic Plots strategy. | **Decision:** Decided which specific libraries (Matplotlib/Seaborn) to use for which insights. |
+| **Sp 2** | Nov 08 | **Blocker:** Team Confusion on Architecture. | **Action:** "Clean-the-air" meeting to resolve doubts about where to put logic vs UI code. |
+| **Sp 3** | Nov 15 | **Issue:** Frequent merge conflicts overriding code updates. | **Action:** Anshu enforced "Branch Protection Rules" requiring PR reviews before merge. |
+| **Sp 3** | Nov 22 | **Demo:** Teammates proposed new features (Home/About/KYD). | **Action:** Accepted proposals: Ishwari assigned Home/About, Mrunalini assigned 'Know Your Data' (Numerical Analysis). |
+| **Sp 4** | Nov 29 | **Review:** UI Consistency Check (HTML/CSS). | **Action:** Mrunalini & Ishwari established global CSS variables to fix table rendering issues. |
+| **Sp 4** | Dec 06 | **Review:** Final Draft Demonstration. | **Action:** Reviewed the nearly-finished product; requested minor preference-based UI tweaks before freezing code. |
+| **Sp 4** | Dec 11 | **Prep:** Presentation & Live Demo planning. | **Action:** Assigned roles for the final presentation: who speaks on Architecture, who does Live Demo, etc. |
 
 ---
 
@@ -66,7 +71,7 @@ Reflecting on the "CollisionX India" team performance.
 | SL # | Sprint # | Team Member | Start Doing | Stop Doing | Continue Doing |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Sprint 2 | Anshu | Grouping PRs by Feature Branch (UI, Data, Core). | Allowing direct commits to Main. | Managing the shared repository protections. |
-| 2 | Sprint 3 | Sami | Leveraging **Gemini/Claude** for tricky Pandas debugging. | Writing custom CSS without checking Streamlit support. | guiding the 15-member team on architecture. |
+| 2 | Sprint 3 | Saidul | Leveraging **Gemini/Claude** for tricky Pandas debugging. | Writing custom CSS without checking Streamlit support. | guiding the 15-member team on architecture. |
 | 3 | Sprint 3 | Mrunalini | Creating assets (Logo) earlier in the sprint. | Using hardcoded paths. | improving UI aesthetics. |
 | 4 | Sprint 4 | Saidul | Validating GeoJSON files before implementation. | Ignoring projection errors. | searching for open-source resources. |
 | 5 | Sprint 4 | All | Using standard Variable names (Data Variables). | Hardcoding column names in pages. | collaborating on plotting logic. |
@@ -79,10 +84,10 @@ Reflecting on the "CollisionX India" team performance.
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | BUG-01 | **Map Visibility:** Map not loading for certain States. | Sprint 4 | Saidul | Data | Swapped broken GeoJSON with valid Open Source files found online. | Closed |
 | BUG-02 | **Merge Conflict:** Logic overwrites in `app.py`. | Sprint 2 | Anshu | Process | Restricted main branch; enforced 7-branch workflow. | Closed |
-| BUG-03 | **Visuals:** Bar charts overlapping on mobile. | Sprint 3 | Sanjana | UI | Adjusted figure size and rotation using Matplotlib params. | Closed |
+| BUG-03 | **Visuals:** Bar charts overlapping. | Sprint 3 | Sanjana | UI | Adjusted figure size and rotation using Matplotlib params. | Closed |
 | BUG-04 | **Analysis:** Complex filters causing slow load. | Sprint 3 | Darsana | Perf | Optimization assistance from AI tools (Claude). | Closed |
 | BUG-05 | **Encoding Error:** CSVs with special chars failing. | Sprint 2 | Divija | Data | Added `latin-1` fallback in `utils.py`. | Closed |
-| BUG-06 | **UI Glitch:** Sidebar overlapping text on mobile. | Sprint 3 | Ishwari | UI | Applied custom CSS media queries for responsive layout. | Closed |
+| BUG-06 | **UI Glitch:** Sidebar overlapping text. | Sprint 3 | Ishwari | UI | Applied custom CSS media queries for responsive layout. | Closed |
 
 ---
 
@@ -99,4 +104,4 @@ Reflecting on the "CollisionX India" team performance.
 
 ---
 
-> **Acknowledgment:** We leveraged AI tools (Claude & Gemini) primarily for **complex debugging** where Sami & Anshu led the analysis to resolve deep technical issues.
+> **Acknowledgment:** We leveraged AI tools (Claude & Gemini) primarily for **complex debugging** where Saidul & Anshu led the analysis to resolve deep technical issues. We, everyone have worked together collaboratively to resolve the issues and give a successful from to this project.

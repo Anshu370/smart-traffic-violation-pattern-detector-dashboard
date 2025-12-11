@@ -53,7 +53,7 @@ This document tracks the detailed chronological progress of the **CollisionX Ind
 * **2025-11-04:**
   * **Git Workflow:** **Anshu** established the Git structure and resolved initial merge conflicts for the team of 13.
   * **Repo Initialization:** **Saidul** set up the repository, virtual environment, and `app.py` skeleton.
-  * **Environment Config:** **Rakshitha** created the `pyproject.toml` and `requirements.txt` to manage dependencies.
+  * **Environment Config:** **Saidul** created the `pyproject.toml` and `requirements.txt` to manage dependencies.
 
 * **2025-11-01:**
   * **Project Kickoff:** Team **CollisionX India** assembled. **Saidul** (Lead) defined the architecture and assigned initial modules to:
