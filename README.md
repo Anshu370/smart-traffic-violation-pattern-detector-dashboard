@@ -127,9 +127,6 @@ This project is a Streamlit web application designed to analyze traffic violatio
 │   ├── PROJECT_BLUEPRINT_1-BASIC.md                  # System Architecture & Overview
 │   ├── PROJECT_BLUEPRINT_2-PAGE_DEVELOPMENT_DETAILS.md # Detailed Page Analysis
 │   ├── PROJECT_BLUEPRINT_3-VISUAL_DIAGRAMS.md        # Architecture & Data Flow Diagrams
-│   ├── PROJECT_BLUEPRINT_4-AGILE_DOCUMENTATION.md    # Agile Artifacts & Team Data
-│   ├── PROJECT_BLUEPRINT_4-CODE_QUALITY.md           # Code Quality & Architecture Analysis
-│   └── PROJECT_BLUEPRINT_5-WORKFLOW_TIMELINE.md      # Chronological Project History
 ├── README.md
 ├── uploded_file_relateds
 └── uv.lock
